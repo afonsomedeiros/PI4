@@ -2,7 +2,7 @@
 
 ## Lista de rotas.
 
-- [ ] /previsao - [GET]
+- [ x ] /previsao - [GET]
 - [ ] /dados - [GET, POST]
 - [ ] /enviar - [POST]
 
