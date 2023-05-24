@@ -1,6 +1,10 @@
+from CONST import DEBUG, RELOADER
 from api import create_app
 
 
-app = create_app()
+def main():
+    app = create_app()
+    app.run(debug=DEBUG, reloader=RELOADER)
 
-app.run()
+if __name__ == '__main__':
+    main()
