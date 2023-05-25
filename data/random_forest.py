@@ -12,7 +12,7 @@ class RandomForest:
 
     def __load_data(self, data_file_path: str) -> pd.DataFrame:
         if data_file_path.lower().endswith(".xlsx"):
-            return pd.read_excel(data_file_path)
+            return pd.read_excel(data_file_path, , engine='openpyxl')
         elif data_file_path.lower().endswith(".csv"):
             return pd.read_csv(data_file_path)
         
